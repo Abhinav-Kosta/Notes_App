@@ -1,0 +1,119 @@
+body {
+    background-color: #F5E6CC;
+    color: #333333;
+}
+
+h1 {
+    color: #333333;
+    text-align: center;
+    margin: 20px;
+}
+
+.place {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card{
+    text-align: center;
+    margin: 20px;
+    background-color: #FFFAF0;
+    outline: 3px solid #D4A373;
+    box-shadow: 5px 5px 10px #D4A373;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+button {
+    background-color: #D4A373;
+    color: #333333;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px #28231D;
+}
+
+button:hover {
+    transform: scale(1.15);
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#crt-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#center {
+    text-align: center;
+    margin: auto;
+    height: 65vh;
+}
+
+/* Styling for the form container */
+.form-container {
+    background-color: #FFFAF0; /* Soft pastel background */
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styling for input fields */
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #D4A373; /* Soft brown border */
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+/* Input & Textarea Hover/Focus Effect */
+input:focus, textarea:focus {
+    border-color: #C58E58; /* Darker shade when focused */
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(197, 142, 88, 0.5); /* Soft glow */
+}
+
+/* Styling for Textarea */
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Submit Button */
+.btn-sb {
+    background-color: #D4A373;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.1s ease;
+}
+
+.btn-sb:hover {
+    background-color: #C58E58;
+    transform: scale(1.05);
+}
+
+.btn-sb:active {
+    background-color: #B97A57;
+    transform: scale(0.98);
+}
